@@ -1,0 +1,118 @@
+body {
+  background-color: #5ccdf0;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  }
+  .change {
+    background-color: rgb(240, 225, 94);
+    color: #b83a8e;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    }
+    .change:hover {
+      color: black;
+    }
+  
+.contact {
+  margin-left: 40%;
+}
+
+h1 {
+font-family: 'Dancing Script', cursive;
+font-size: 48px;
+color: #b83a8e;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  background: #fddcea;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-bottom: #b83a8e 4px solid;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
+
+span {
+  color: rgb(240, 225, 94);
+  letter-spacing: 3px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+  }
+  .homeimage{
+    width: 50%;
+    border-top: #b83a8e 4px solid;
+    border-bottom: #b83a8e 4px solid;
+    border-right: #b83a8e 4px solid;
+  }
+  .one {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-size: 20px;
+    margin-left: 2%;
+    letter-spacing: 2px;
+    margin-right: 2%;
+  }
+
+.info {
+text-align: center;
+  }
+
+  .card {
+    background-color: rgb(240, 225, 94);
+    width: 30%;
+    margin-left: 35%;
+    padding: 1%;
+    margin-top: 5%;
+    border: #b83a8e 4px solid;
+    border-radius: 8px;
+  }
+
+
+.read-or-hide{
+  color: rgb(138, 128, 128);
+  cursor: pointer;
+}
+.donutImage {
+  border-radius: 4px;
+}
+
+.donutDescription {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 15px;
+}
